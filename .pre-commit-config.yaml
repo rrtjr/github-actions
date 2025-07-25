@@ -12,5 +12,5 @@ repos:
     rev: 0.8.1
     hooks:
       - id: nbstripout
-        args: [--strip-empty-cells]
+        args: [--drop-empty-cells]
         types: [jupyter]
